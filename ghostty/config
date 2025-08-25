@@ -1,0 +1,24 @@
+font-size = 15
+font-thicken = true
+font-family = "CaskaydiaCove Nerd Font"
+confirm-close-surface= false
+
+theme="vesper"
+
+keybind= ctrl+r=reload_config
+keybind= ctrl+shift+k=new_split:up
+keybind= ctrl+shift+j=new_split:down
+keybind= ctrl+shift+h=new_split:left
+keybind= ctrl+shift+l=new_split:right
+
+cursor-color=#ff0078
+cursor-style=block
+selection-background= 1d3c3b
+selection-foreground= eeeeee
+
+background-opacity=.8
+background-blur-radius=90
+window-colorspace="display-p3"
+
+adjust-cell-height=20%
+maximize=true
