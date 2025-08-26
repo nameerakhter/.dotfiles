@@ -1,0 +1,36 @@
+{
+  "appearance": {
+    "font": {
+      "size": {
+        "scale": 1
+      }
+    },
+    "spacing": {
+      "scale": 1
+    },
+    "padding": {
+      "scale": 1
+    },
+    "rounding": {
+      "scale": 1
+    },
+    "anim": {
+      "durations": {
+        "scale": 1
+      }
+    }
+  },
+  "launcher": {
+    "sizes": {
+      "itemWidth": 900,
+      "itemHeight": 85,
+      "wallpaperWidth": 420,
+      "wallpaperHeight": 300
+    }
+  },
+  "bar": {
+    "workspaces": {
+      "shown": 5
+    }
+  }
+}
