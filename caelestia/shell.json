@@ -28,6 +28,9 @@
       "wallpaperHeight": 300
     }
   },
+  "services": {
+    "useFahrenheit": false
+  },
   "bar": {
     "workspaces": {
       "shown": 5
