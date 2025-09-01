@@ -29,7 +29,8 @@
     }
   },
   "services": {
-    "useFahrenheit": false
+    "useFahrenheit": false,
+    "smartScheme": true
   },
   "bar": {
     "workspaces": {
