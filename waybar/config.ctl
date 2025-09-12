@@ -1,0 +1,1 @@
+/home/nameer/hyprdots/Configs/.config/waybar/config.ctl
