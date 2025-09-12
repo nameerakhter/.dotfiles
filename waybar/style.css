@@ -1,1 +1,202 @@
-/home/nameer/hyprdots/Configs/.config/waybar/style.css
+* {
+  border: none;
+  border-radius: 0px;
+  font-family: "CaskaydiaCove Nerd Font Mono", "CaskaydiaCove Nerd Font",
+    "Symbols Nerd Font Mono", "Nerd Font Symbols", "Font Awesome 6 Free",
+    monospace;
+  font-weight: bold;
+  font-size: 15px;
+  min-height: 8px;
+}
+
+@import "theme.css";
+
+window#waybar {
+  background: @bar-bg;
+}
+
+tooltip {
+  background: @main-bg;
+  color: @main-fg;
+  border-radius: 7px;
+  border-width: 0px;
+}
+
+#workspaces button {
+  all: initial;
+  min-width: 0;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0px;
+  border-radius: 9px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: @main-fg;
+  background: transparent;
+  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#workspaces button.active {
+  background: @wb-act-bg;
+  color: @wb-act-fg;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 9px;
+  transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+}
+
+#workspaces button:hover {
+  background: @wb-hvr-bg;
+  color: @wb-hvr-fg;
+  border-radius: 9px;
+  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+}
+
+#workspaces button.urgent {
+  color: #ff6b6b;
+  background: rgba(255, 107, 107, 0.2);
+  animation: blink 1s linear infinite alternate;
+  border-radius: 9px;
+}
+
+@keyframes blink {
+  to {
+    background-color: rgba(255, 107, 107, 0.4);
+  }
+}
+
+@keyframes blink {
+  to {
+    background-color: rgba(255, 107, 107, 0.7);
+  }
+}
+
+#taskbar button {
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0px;
+  border-radius: 9px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-right: 0px;
+  color: @wb-color;
+  animation: tb_normal 20s ease-in-out 1;
+}
+
+#taskbar button.active {
+  background: @wb-act-bg;
+  color: @wb-act-color;
+  margin-left: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-right: 3px;
+  animation: tb_active 20s ease-in-out 1;
+  transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+}
+
+#taskbar button:hover {
+  background: @wb-hvr-bg;
+  color: @wb-hvr-color;
+  animation: tb_hover 20s ease-in-out 1;
+  transition: all 0.3s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+}
+
+#tray menu * {
+  min-height: 16px;
+}
+
+#tray menu separator {
+  min-height: 10px;
+}
+
+#backlight,
+#battery,
+#bluetooth,
+#custom-cliphist,
+#clock,
+#custom-cpuinfo,
+#cpu,
+#custom-gpuinfo,
+#idle_inhibitor,
+#custom-keybindhint,
+#language,
+#memory,
+#mpris,
+#network,
+#custom-notifications,
+#custom-power,
+#pulseaudio,
+#custom-spotify,
+#taskbar,
+#custom-theme,
+#tray,
+#custom-updates,
+#custom-wallchange,
+#custom-wbar,
+#window,
+#workspaces,
+#custom-l_end,
+#custom-r_end,
+#custom-sl_end,
+#custom-sr_end,
+#custom-rl_end,
+#custom-rr_end {
+  color: @main-fg;
+  background: @main-bg;
+  opacity: 1;
+  margin: 4px 0px 4px 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#workspaces,
+#taskbar {
+  padding: 0px;
+}
+
+#custom-r_end {
+  border-radius: 0px 21px 21px 0px;
+  margin-right: 9px;
+  padding-right: 3px;
+}
+
+#custom-l_end {
+  border-radius: 21px 0px 0px 21px;
+  margin-left: 9px;
+  padding-left: 3px;
+}
+
+#custom-sr_end {
+  border-radius: 0px;
+  margin-right: 9px;
+  padding-right: 3px;
+}
+
+#custom-sl_end {
+  border-radius: 0px;
+  margin-left: 9px;
+  padding-left: 3px;
+}
+
+#custom-rr_end {
+  border-radius: 0px 7px 7px 0px;
+  margin-right: 9px;
+  padding-right: 3px;
+}
+
+#custom-rl_end {
+  border-radius: 7px 0px 0px 7px;
+  margin-left: 9px;
+  padding-left: 3px;
+}
