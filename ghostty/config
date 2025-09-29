@@ -3,7 +3,7 @@ font-thicken = true
 font-family = "CaskaydiaCove Nerd Font"
 confirm-close-surface= false
 
-theme="vesper"
+theme="Vesper"
 
 keybind= ctrl+r=reload_config
 keybind= ctrl+shift+k=new_split:up
