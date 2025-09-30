@@ -5,10 +5,12 @@
 
 ---
 
-## ✨ Overview (WIP - testing some new stuff)
+## ✨ Overview
 
 <!--<img width="1920" height="1080" alt="desktop screenshot" src="https://github.com/user-attachments/assets/751da7b7-46d4-494b-bf8f-c1a1d1483d27" /> -->
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6ca536cb-cc65-4322-9195-a8fb6bd1f250" />
+
+
 
 
 ---
@@ -60,6 +62,17 @@
 
 
 ---
+
+## Upcoming updates
+
+<table>
+  <tr>
+    <td width="100%">
+     <h3> Minimal and updated waybar config</h3>
+      <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b6b3c20b-4a5a-4ac9-80b3-615e442aba01" />
+    </td>
+  </tr>
+</table>
 
 ## Setup notes
 
