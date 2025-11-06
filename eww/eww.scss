@@ -1,43 +1,81 @@
 * {
-  all: unset; // Unsets everything so you can style everything from scratch
-}
-
-// Global Styles
-.bar {
-  background-color: rgba(0,0,0,0);
-  color: #b0b4bc;
-  padding: 10px;
-}
-
-// Styles on classes (see eww.yuck for more information)
-
-.sidestuff slider {
   all: unset;
-  color: #ffd5cd;
 }
 
-.metric scale trough highlight {
-  all: unset;
-  background-color: #D35D6E;
-  color: #000000;
-  border-radius: 10px;
+.powermenu_layout {
+  border: 2px solid #cdd6f4;
+  border-radius: 8px;
+  padding: 0px;
 }
 
-.metric scale trough {
-  all: unset;
-  background-color: #4e4e4e;
-  border-radius: 50px;
-  min-height: 3px;
-  min-width: 50px;
-  margin-left: 10px;
-  margin-right: 20px;
+.powermenu_index {
+  font-family: "Material Design Icons Desktop Regular", "Google Sans Regular";
 }
 
-.label-ram {
-  font-size: large;
+.buttons {
+  border-radius: 8px;
+  margin-left: 15;
+  margin-right: 15;
+  padding-left: 80;
+  padding-right: 80;
+  padding-top: 35;
+  padding-bottom: 35;
 }
 
-.workspaces button:hover {
-  color: #D35D6E;
+.close {
+  padding-top: 20;
+  padding-bottom: 20;
+  margin-right: 25;
 }
 
+.calendar_layout {
+  padding: 5px;
+  border-radius: 8px;
+  border: 2px solid #cdd6f4;
+}
+
+.calendar_box {
+  border-radius: 8px;
+  background-color: #1e1e2e;
+}
+
+.calendar.header {
+  color: #cba6f7;
+}
+
+.calendar.button {
+  color: #cba6f7;
+}
+
+.calendar.highlight {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: #74c7ec;
+}
+
+calendar:indeterminate {
+  color: #6c7086;
+}
+
+.exit {
+  color: #f38ba8;
+  font-size: 20px;
+}
+
+.shutdown {
+  border-radius: 7px;
+  color: #f38ba8;
+  font-size: 40px;
+}
+
+.reboot {
+  color: #f9e2af;
+  font-size: 40px;
+}
+
+.logout {
+  border-radius: 7px;
+  color: #74c7ec;
+  font-size: 40px;
+  padding: 8px;
+}
