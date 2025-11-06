@@ -1,33 +1,31 @@
-# ~/.config — Dotfiles
 
-> Personal dotfiles for **EndeavourOS • Hyprland**  
+> Dotfiles for **EndeavourOS • Hyprland**  
 > Clean, functional dotfiles built around **Hyprland**.
 
 ---
 
 ## ✨ Overview
 
-<!--<img width="1920" height="1080" alt="desktop screenshot" src="https://github.com/user-attachments/assets/751da7b7-46d4-494b-bf8f-c1a1d1483d27" /> -->
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6ca536cb-cc65-4322-9195-a8fb6bd1f250" />
+<img width="1921" height="1078" alt="image" src="https://github.com/user-attachments/assets/2b0eb33e-2d93-4485-88de-fe857d21a029" />
 
 ---
 
 ## Screenshots
 
-<!-- <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/07482bef-3288-44a0-a63c-e23337a950fd" /> -->
+ <img width="1907" height="1015" alt="image" src="https://github.com/user-attachments/assets/23000af4-57be-409c-b2d1-8c0d5ba4e51c" />
 
 <table>
   <tr>
     <td width="50%">
-      <img width="100%" alt="Screenshot 1" src="https://github.com/user-attachments/assets/07482bef-3288-44a0-a63c-e23337a950fd" />
+      <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b6b3c20b-4a5a-4ac9-80b3-615e442aba01" />
     </td>
     <td width="50%">
-<img width="1114" height="561" alt="image" src="https://github.com/user-attachments/assets/5ae3ab83-f237-4635-8577-6390ad87d9de" />
+<img width="646" height="544" alt="image" src="https://github.com/user-attachments/assets/bee3579f-b80d-4228-805d-db143724b65d" />
     </td>
   </tr>
   <tr>
     <td width="50%">
-<img width="1897" height="36" alt="image" src="https://github.com/user-attachments/assets/6a9d73bf-1442-450a-b206-bddd5274c672" />
+<img width="1921" height="53" alt="image" src="https://github.com/user-attachments/assets/5bab84da-aaec-46c0-8d13-1aa09c38e61f" />
     </td>
     <td width="50%">
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9995f044-1813-4f78-9597-8b11b55c42e6" />
@@ -36,9 +34,6 @@
 </table>
 
 ---
-
-## Upcoming updates
-
 <table>
   <tr>
     <td width="100%">
@@ -67,7 +62,7 @@
 
 ### Launchers & Tools
 
-- **LA** → `wofi` _(considering switch to rofi)_
+- **LA** → `rofi` 
 
 ---
 
